@@ -1,1 +1,2 @@
 # Pneumonia-detection-using-CNN-and-transfer-learning
+Detection of pneumonia from chest x-ray images was executed using two methodologies. Firstly, Transfer learning was used by loading RESNET50V2 model weights and freezing the top layers. For the second methodology, heat maps would be stacked along the channels of an image and then trained using 5 convolutional layers with maxpooling layers and dense layers. A testing accuracy of 81\% was achieved using the aforementioned methodology. 
